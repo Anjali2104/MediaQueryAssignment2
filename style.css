@@ -1,0 +1,162 @@
+*{
+    margin: 0;
+    padding: 0;
+    background-color: #111827;
+    color: #fff;
+}
+nav{
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+ul{
+    display: flex;
+    list-style: none;
+    gap:20px;
+}
+.hamburgerMenu{
+    display: none;
+}
+.more{
+    background-color: #6464e0;
+    padding: 7px;
+    border:none;
+    border-radius: 20%;
+}
+main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin:30px auto;
+}
+.leftMain{
+  width:40%;
+  margin-left: 200px;
+  align-items: center;
+        text-align: center;
+  
+}
+.leftMain span{
+    font-size: 26px;
+}
+.leftMain h1{
+    font-size: 50px;
+}
+.leftMain p{
+    color: yellow;
+    font-size: 20px;
+}
+
+.wavingHand{
+    height: 25px;
+    width: 25px;
+}
+.pcImg{
+    height: 30%;
+    width: 70%;
+}
+section {
+    margin-top: 50px;
+}
+section h1{
+    text-align: center;
+    font-size: 30px;
+    text-decoration:  3px underline blue;
+}
+.gridImg{
+    height: 400px;
+    width: 400px;
+}
+.galleryImg p{
+    text-align: center;
+}
+.gallery{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap:10px;
+    flex-wrap: wrap;
+    margin: 20px auto;
+    width:70%
+
+}
+footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 50px auto 20px;
+}
+footer h1{
+    text-decoration:  3px blue underline;
+}
+.socialIcon{
+    height:25px;
+    width: 25px;
+    
+}
+.socialMedia{
+    display: flex;
+    gap: 10px;
+    margin-top: 20px;
+}
+@media screen and (max-width:458px) {
+    ul{
+        display: none;
+    }
+    .hamburgerMenu{
+        display: block;
+        height: 25px;
+        width: 25px;
+      margin-right: 90%;
+    }
+    .wavingHand{
+        display: block;
+        margin:  auto;
+        height: 28px;
+        width: 28px;
+    }
+    main{
+        
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center
+
+    }
+    .leftMain{
+        width: 100%;
+       margin: 0 auto 30px;
+        align-items: center;
+        text-align: center;
+    }
+  .leftMain span{
+    font-size: 20px;
+   }
+   .leftMain h1{
+    font-size: 30px;
+   }
+   .leftMain p{
+    color: yellow;
+    font-size: 18px;
+   }
+   .rightMain{
+    width: 100%;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   }
+   .gallery{
+    align-items: center;
+    justify-content: center;
+   }   
+   .gridImg{
+    height: 200px;
+    width: 200px;
+   }  
+  /* .socialMedia{
+   display: flex;
+   gap:10px
+  } */
+}
